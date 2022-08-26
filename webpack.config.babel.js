@@ -31,7 +31,6 @@ export default {
   plugins: [
     new HtmlWebpackPlugin({
       template: path.join(__dirname, 'index.html'),
-      favicon: 'assets/img/favicon.png',
     }),
   ],
   stats: 'minimal',
